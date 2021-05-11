@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+    }
+body {
+    background-color: #b39261;
+    background-image: url("https://www.transparenttextures.com/patterns/stressed-linen.png");
+}
+.navbar-nav a:hover {
+    color: #000000fb;
+}
+#about{
+    padding: 10%;
+    border-style: solid;
+    border-color: black;
+}
+.container-project {
+    padding: 10%;
+    border-style: solid;
+    border-color: black;
+}
+.project-links {
+    display: flex;
+    justify-content: space-between;
+}
+p.thicker {
+    font-weight: 900;
+}
+li {
+    list-style-type: none;
+}
+.lead {
+    font-weight: bold; 
+}
+#li-one {
+    left: -100px;
+    color: black;
+    border-style: solid;
+    border-color: black;
+}
+#li-two {
+    left: 30px;
+    color: black;
+    border-style: solid;
+    border-color: black;
+}
+.container-footer {
+    padding: 5%;
+}
+.container-footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.copyright {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+/* form reset */
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+/* form border, padding, margin, width */
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="submit"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="submit"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"] {
+  margin-bottom: 0;
+}
